@@ -14,4 +14,8 @@ public class IndexController {
         ctx.render("index.html");
     };
 
+    public Handler ola = (Context ctx) ->{
+        ctx.render("ola.html");
+    };
+
 }
